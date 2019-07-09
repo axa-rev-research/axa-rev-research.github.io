@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> REV website </title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+
+    <!------------------------------| NAVIGATION |---------------------------------------->
+    <nav>
+        <a href="index.html"><img class="AXA_logo nav_item" src="img/axa-logo.png" alt="AXA logo" style="display: none"></a>
+        <ul>
+
+            <li class="nav_item"><a href="index.html">RESEARCH</a></li>
+
+            <li class="nav_item"><a href="mailto:chaouki.boutharouite@axa.com">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!------------------------------| HEADER |---------------------------------------->
+
+    <header class="title">
+        <a href="index.html"><img src="img/left-arrow.svg" alt="back button"></a>
+        <h1>Fairness</h1>
+    </header>
+
+    <!------------------------------| LISTE DES PAPIERS |---------------------------------------->
+
+    <section class="papers">
+
+        <!-----------article template-------------->
+
+        <article class="example" style="display: none;">
+            <!--If you don't have any link, delete the <a></a> elements-->
+            <a href="LINK TO ARTICLE">
+                <!--You can put pdf.svg, link.svg or delete the icon altogether-->
+                <img src="img/link.svg">
+
+                <h2>
+                    TITLE OF THE PAPER
+                </h2>
+
+            </a>
+
+            <p class="authors">
+                LIST OF AUTHORS
+                <span>DATE</span>
+            </p>
+
+            <p class="description">
+                DESCRIPTION OF THE PAPER
+            </p>
+            <!--    You can put the link to the github repository of the project, delete the image to give information like "to appear" or delete it altogether.-->
+            <a href="#" class="github">
+                <img src="img/github.svg">
+                <p>Github repository</p>
+            </a>
+        </article>
+
+        <!--NO ARTICLE HERE-->
+        <p>Our team is working hard to bring you something, don't hesitate to contact the people working on Behavioral.</p>
+    </section>
+
+    <!------------------------------| TEAM |---------------------------------------->
+
+    <section class="team">
+        <h1>The team</h1>
+
+        <!-- contact -->
+
+        <div class="member">
+            <img src="img/team/marcin.jpeg">
+            <div>
+                <h2>Marcin Detyniecki</h2>
+                <p>Head of Research and Development</p>
+                <a href="mailto:marcin.detyniecki@axa.com">Contact me</a>
+            </div>
+        </div>
+
+        <!-- contact -->
+
+        <div class="member">
+            <img src="img/team/vincentg.jpg">
+            <div>
+                <h2>Vincent Grari</h2>
+                <p>Research Data Scientist</p>
+                <a href="mailto:vincent.grari@axa.com">Contact me</a>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------| FOOTER |---------------------------------------->
+
+    <footer>
+        <div>
+            <a href="#">
+                <h3>Follow Us</h3>
+            </a>
+            <a class="twitter-timeline" href="https://twitter.com/viviane_bch/lists/rev-research?ref_src=twsrc%5Etfw" data-width="250" data-link-color="#ed6b62" data-height="300" data-chrome="noheader, nofooter, noborders"></a>
+        </div>
+        <div>
+            <a href="mailto:chaouki.boutharouite@axa.com">
+                <h3>Contact Us</h3>
+            </a>
+            <p>We are a Paris based research team working for AXA. We strongly believe that research will make the world a better place for tommorow.</p>
+            <img src="img/paris-illustration.png">
+        </div>
+    </footer>
+</body></html>

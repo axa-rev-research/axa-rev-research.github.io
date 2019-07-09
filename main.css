@@ -1,0 +1,449 @@
+/*______________Generic CSS______________*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 3.5em;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #878787;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: #ed6b62;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+p {
+    width: auto;
+    font-size: 2.1em;
+    font-weight: 200;
+    line-height: normal;
+    color: #878787;
+}
+
+nav {
+    height: 70px;
+    width: 100vw;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: solid 1px #e8e8e8;
+}
+
+nav img {
+    float: left;
+    margin: 1em;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    font-size: 1.4em;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 0.23px;
+    text-align: center;
+    color: #00008f;
+    margin: auto 2%;
+}
+
+nav ul li a {
+    color: #00008f;
+}
+
+nav ul li a:hover {
+    color: #ed6b62;
+}
+
+footer {
+    width: 100%;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.06);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+footer div:last-child {
+    justify-content: space-between;
+}
+
+footer div h3 {
+    margin: 1em 0;
+}
+
+footer div img {
+    width: auto;
+    max-width: 15em;
+    height: auto;
+    max-height: 15em;
+}
+
+.twitter-timeline {
+    width: 100%;
+}
+
+/*_______________Index CSS________________*/
+
+.intro {
+    margin: 5em auto;
+    width: 50vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1 img {
+    margin-left: 15px;
+}
+
+.intro div {
+    font-size: 2.1em;
+    font-weight: 200;
+    line-height: normal;
+    color: #878787;
+    margin: 2em 0;
+}
+
+.paper_list {
+    margin: 5em auto 10em auto;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.paper_list .show {
+    display: flex;
+    margin: 5vh 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.paper_list .show img {
+    max-width: 15vw;
+    max-height: 15vw;
+    margin: 0 auto;
+}
+
+.paper_list .show div {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.paper_list .show div p {
+    font-size: 1.6em;
+    font-weight: normal;
+    font-style: 100;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #878787;
+    width: 25vw;
+}
+
+.paper_list .show div a {
+    font-weight: 600;
+    font-size: 1.6em;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ed6b62;
+    margin: 1em 0 0 0;
+}
+
+
+/*_____________Subjects CSS______________*/
+
+.title {
+    display: flex;
+    margin: 5% 5% 0 10%;
+    align-items: center;
+}
+
+.title img {
+    margin: 0 1rem 0 0;
+}
+
+.title h1 {
+    font-size: 4.5em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ed6b62;
+}
+
+.papers {
+    margin: 3% 15% 0 15%;
+}
+
+.papers article {
+    margin: 3rem 0;
+}
+
+.papers article h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5f5f;
+}
+
+.papers article a {
+    display: flex;
+}
+
+.papers article a h2:hover {
+    color: #ed6b62;
+}
+
+.papers article a img {
+    margin: 0 1rem 0 0;
+}
+
+.papers article a h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5f5f;
+
+}
+
+.papers article .authors {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5f5f;
+}
+
+.papers article .authors span {
+    margin: 1rem;
+    font-weight: 500;
+    color: #5f5f5f;
+}
+
+.papers article .description {
+    width: 80%;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #727272;
+}
+
+.papers article .github {
+    margin: 1rem 0 0 0;
+}
+
+.papers article .github img {
+    margin: 0 0.8rem 0 0;
+}
+
+.papers article .github p {
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5f5f5f;
+}
+
+.team {
+    margin: 5% 5% 0 10%;
+}
+
+.team h1 {
+    font-size: 4.5em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ed6b62;
+}
+
+.team .member {
+    margin: 3rem 0;
+    display: flex;
+    width: 90%;
+}
+
+.team .member img {
+    margin: 0 3rem 0 0;
+    width: 20vw;
+    align-self: flex-start;
+}
+
+.team .member div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.team .member div h2 {
+    font-size: 2.3rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #878787;
+}
+
+.team .member div p {
+    margin: 1rem 0 0 0;
+    width: 20rem;
+}
+
+.team .member div a {
+    margin: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ed6b62;
+}
+
+/*____________MEDIAQUERY 800px_____________*/
+@media screen and (max-width: 800px) {
+    .team .member img {
+        margin: 0 0 2rem 0;
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .team .member div p {
+        width: 100%;
+    }
+
+    .team .member {
+        margin: 3rem auto;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .team .member div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/*____________MEDIAQUERY 640px_____________*/
+@media screen and (max-width: 640px) {
+
+    /*__________Generic CSS__________*/
+
+    body {
+        font-size: 8px;
+
+    }
+
+    footer {
+        display: block;
+        align-content: center;
+
+    }
+
+    footer div {
+        width: 80vw;
+        margin: auto;
+    }
+
+    /*__________Index CSS__________*/
+
+    .intro h1 img {
+        width: 90%;
+    }
+
+    .paper_list .show {
+        display: block;
+    }
+
+    .paper_list .show img {
+        max-width: 40vw;
+        max-height: 40vw;
+        margin: 1rem auto;
+    }
+
+    .paper_list .show div {
+        width: 100%;
+    }
+
+    .paper_list .show div p {
+        width: 100%;
+    }
+
+    /*__________Subject CSS__________*/
+
+    .title h1 {
+        font-size: 3.7em;
+    }
+
+    .team {
+        margin: 0 8%;
+    }
+
+    .papers {
+        margin: 0 10%;
+    }
+
+    .team h1 {
+        font-size: 3.7em;
+    }
+
+    .team .member {
+        margin: 3rem auto;
+        flex-direction: column;
+        width: 90%;
+    }
+}
