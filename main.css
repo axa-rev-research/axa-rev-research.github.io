@@ -297,11 +297,11 @@ footer div img {
 .papers .clip {
     margin: 3rem 0;
     display: flex;
-    width 90%;
 }
 
 .papers .clip iframe{
     margin: 0 3rem 0 0;
+    width: 40%
     align-self: flex-start;
 }
 
