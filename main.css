@@ -294,6 +294,38 @@ footer div img {
     color: #5f5f5f;
 }
 
+.papers .clip {
+    margin: 3rem 0;
+    display: flex;
+}
+
+.papers .clip iframe{
+    margin: 0 3rem 0 0;
+    width: 40%
+    align-self: flex-start;
+}
+
+.papers  .clip div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.papers .clip div h2 {
+    font-size: 2.3rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #878787;
+}
+
+.papers .clip div p {
+    margin: 1rem 0 0 0;
+    width: 20rem;
+}
+
 .team {
     margin: 5% 5% 0 10%;
 }
